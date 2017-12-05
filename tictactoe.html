@@ -1,0 +1,36 @@
+<!--Just Checking GitHub changes!!!!-->
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+	  <!--Setting an Area for Displaying the Messages-->
+	  <div id="message">Let's Start the game!</div>
+	  <!--Noch mal geändert um es einfach klarer zu machen bei gitHub-->
+	  <table>
+	  	<tr>
+			<!--Every row has 3 cells. Each cell has a class, id and event tion what the user has put in the cells-->
+			<td class="cell" id="1" onClick="putSymbol(this)"></td>
+		 	<td class="cell" id="2" onClick="putSymbol(this)"></td>
+			<td class="cell" id="3" onClick="putSymbol(this)"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="4" onClick="putSymbol(this)"></td>
+		 	<td class="cell" id="5" onClick="putSymbol(this)"></td>
+			<td class="cell" id="6" onClick="putSymbol(this)"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="7" onClick="putSymbol(this)"></td>
+		 	<td class="cell" id="8" onClick="putSymbol(this)"></td>
+			<td class="cell" id="9" onClick="putSymbol(this)"></td>
+		</tr>
+	  </table>
+  		<a href="javascript: restartGame()">Restart Game</a>
+    <script src="main.js"></script>
+  </body>
+</html>
